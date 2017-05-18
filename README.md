@@ -36,5 +36,11 @@ npm run eject // 暴露出webpack配置
 
 a.按需加载（babel-plugin-import）
 b.自定义主题（less-loader）
+c.配置eslint
+
+
+
+
+
 
 
