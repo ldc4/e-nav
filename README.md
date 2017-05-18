@@ -29,13 +29,12 @@ create-react-app e-nav
 ```
 
 3.配置webpack
-由于create-react-app本身依赖于react-scripts，所以需要到node_modules/react-scripts/config目录下修改配置文件webpack.config.dev.js
 
-尝试一下能否在项目根目录中覆盖配置。
-貌似不行，需要将react-scripts整合到自己的项目中。那样就可以维护自己的配置了。类似于[create-react-app-antd](https://github.com/ant-design/create-react-app-antd)
-在尝试过程中，报错了。还原成原来的样子还是不行，只有删掉node_modules重新安装了。
+```bash
+npm run eject // 暴露出webpack配置
+```
 
-a.按需加载
-b.自定义主题
+a.按需加载（babel-plugin-import）
+b.自定义主题（less-loader）
 
-源代码中直接将patch文件夹下的配置覆盖掉react-scripts的配置就可以了。
+
