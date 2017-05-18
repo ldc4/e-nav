@@ -35,10 +35,19 @@ npm run eject // 暴露出webpack配置
 ```
 
 a.按需加载（babel-plugin-import）
+
 b.自定义主题（less-loader）
+
 c.配置eslint
 
+4.测试
 
+create-react-app自带jest(基于jasmine的JS测试框架)，配合使用Enzyme测试工具库，jest有内建的断言库。
+
+具体参考：
+[Running Test](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests)
+[Enzyme官方文档](http://airbnb.io/enzyme/)
+[jest内建except API](http://facebook.github.io/jest/docs/expect.html)
 
 
 
