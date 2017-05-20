@@ -20,7 +20,7 @@ var formatWebpackMessages = require('react-dev-utils/formatWebpackMessages');
 var getProcessForPort = require('react-dev-utils/getProcessForPort');
 var openBrowser = require('react-dev-utils/openBrowser');
 var prompt = require('react-dev-utils/prompt');
-var fs = require('fs');
+var fs = require('fs-extra');
 var config = require('../config/webpack.config.dev');
 var paths = require('../config/paths');
 
@@ -286,6 +286,10 @@ function run(port) {
   var protocol = process.env.HTTPS === 'true' ? "https" : "http";
   var host = process.env.HOST || 'localhost';
   setupCompiler(host, port, protocol);
+  // copy资源文件
+  fs.copySync(paths.appData, paths.appPublic+'/data', {
+    dereference: true
+  });
   runDevServer(host, port, protocol);
 }
 

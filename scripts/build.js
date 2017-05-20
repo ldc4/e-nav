@@ -40,6 +40,9 @@ measureFileSizesBeforeBuild(paths.appBuild).then(previousFileSizes => {
 
   // Merge with the public folder
   copyPublicFolder();
+
+  // Merge with the src/data folder
+  copySrcDataFolder();
 });
 
 // Print out errors
@@ -154,5 +157,11 @@ function copyPublicFolder() {
   fs.copySync(paths.appPublic, paths.appBuild, {
     dereference: true,
     filter: file => file !== paths.appHtml
+  });
+}
+
+function copySrcDataFolder() {
+  fs.copySync(paths.appData, paths.appBuild+'/data', {
+    dereference: true
   });
 }

@@ -4,6 +4,6 @@ import App from './App';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <App dataUrl="data/nav.json" />,
   document.getElementById('root')
 );

@@ -1,20 +1,50 @@
-import React, { Component } from 'react';
-import { Button } from 'antd';
-import logo from './logo.svg';
+import React from 'react';
+import axios from 'axios';
+import { Layout, BackTop } from 'antd';
+const { Content } = Layout;
+import W2Header from './common/W2Header/W2Header';
+import W2Footer from './common/W2Footer/W2Footer';
+import Nav from './app/Nav/Nav';
 import './App.css';
 
-class App extends Component {
+class App extends React.Component {
+
+  constructor(props){
+    super(props);
+
+    this.state = {
+      data: {}
+    };
+  }
+
+  componentDidMount() {
+    axios.get(this.props.dataUrl)
+      .then(res => {
+        const data = res.data;
+        this.setState({ data });
+      });
+  }
+
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button type="primary">Button</Button>
+        <Layout className="layout">
+
+          <W2Header data={this.state.data} />
+
+          <Content>
+            <div style={{ background: '#3f3f3f', padding: 24, minHeight: 500 }}>
+              <Nav data={this.state.data} />
+            </div>
+          </Content>
+
+          <W2Footer />
+
+          <BackTop>
+            <div className="ant-back-top-inner">↑</div>
+          </BackTop>
+
+        </Layout>
       </div>
     );
   }

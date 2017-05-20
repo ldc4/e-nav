@@ -139,7 +139,6 @@ module.exports = {
         include: paths.appSrc,
         loader: 'babel',
         query: {
-          
           plugins: [
             //['import', [{ libraryName: "antd", style: 'css' }]],
             ['import', [{ libraryName: "antd", style: true }]],  // 加载 less 文件
@@ -153,7 +152,7 @@ module.exports = {
       // 解析 less 文件，并加入变量覆盖配置
       {
         test: /\.less$/,
-        loader: 'style!css!postcss!less?{modifyVars:{"@primary-color":"#1DA57A"}}'
+        loader: 'style!css!postcss!less?{modifyVars:{"@primary-color":"#49a9ee"}}'
       },
       // "postcss" loader applies autoprefixer to our CSS.
       // "css" loader resolves paths in CSS and adds assets as dependencies.
