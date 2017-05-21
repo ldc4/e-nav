@@ -1,0 +1,636 @@
+{
+  "title": "生态导航",
+  "categories": [
+    {
+      "name": "日常所需",
+      "groups": [
+        {
+          "name": "技术",
+          "links": [
+            {
+              "name": "开发者头条",
+              "src": "http://toutiao.io/",
+              "description": ""
+            },
+            {
+              "name": "GitHub Explore",
+              "open": 0,
+              "src": "https://github.com/explore",
+              "description": "Browse interesting repositories, solving all types of interesting problems.",
+              "new": true
+            },
+            {
+              "name": "SegmentFault",
+              "src": "https://segmentfault.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "生活",
+          "links": [
+            {
+              "name": "知乎",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "工具",
+          "links": [
+            {
+              "name": "印象笔记",
+              "src": "https://app.yinxiang.com/Home.action",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大神博客",
+      "groups": [
+        {
+          "name": "前端",
+          "links": [
+            {
+              "name": "阮一峰",
+              "src": "http://www.ruanyifeng.com/blog/",
+              "description": "阮一峰，大牛"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日常所需2",
+      "groups": [
+        {
+          "name": "技术2",
+          "links": [
+            {
+              "name": "开发者头条2",
+              "src": "http://toutiao.io/",
+              "description": ""
+            },
+            {
+              "name": "GitHub Explore2",
+              "open": 0,
+              "src": "https://github.com/explore",
+              "description": "Browse interesting repositories, solving all types of interesting problems.",
+              "new": true
+            },
+            {
+              "name": "SegmentFault2",
+              "src": "https://segmentfault.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "生活2",
+          "links": [
+            {
+              "name": "知乎2",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎2",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎2",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎2",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎2",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎2",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎2",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "工具2",
+          "links": [
+            {
+              "name": "印象笔记2",
+              "src": "https://app.yinxiang.com/Home.action",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日常所需3",
+      "groups": [
+        {
+          "name": "技术3",
+          "links": [
+            {
+              "name": "开发者头条3",
+              "src": "http://toutiao.io/",
+              "description": ""
+            },
+            {
+              "name": "GitHub Explore3",
+              "open": 0,
+              "src": "https://github.com/explore",
+              "description": "Browse interesting repositories, solving all types of interesting problems.",
+              "new": true
+            },
+            {
+              "name": "SegmentFault3",
+              "src": "https://segmentfault.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "生活3",
+          "links": [
+            {
+              "name": "知乎3",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎3",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎3",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎3",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎3",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎3",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎3",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "工具3",
+          "links": [
+            {
+              "name": "印象笔记3",
+              "src": "https://app.yinxiang.com/Home.action",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日常所需4",
+      "groups": [
+        {
+          "name": "技术4",
+          "links": [
+            {
+              "name": "开发者头条4",
+              "src": "http://toutiao.io/",
+              "description": ""
+            },
+            {
+              "name": "GitHub Explore4",
+              "open": 0,
+              "src": "https://github.com/explore",
+              "description": "Browse interesting repositories, solving all types of interesting problems.",
+              "new": true
+            },
+            {
+              "name": "SegmentFault4",
+              "src": "https://segmentfault.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "生活4",
+          "links": [
+            {
+              "name": "知乎4",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎4",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎4",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎4",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎4",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎4",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎4",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "工具4",
+          "links": [
+            {
+              "name": "印象笔记4",
+              "src": "https://app.yinxiang.com/Home.action",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日常所需5",
+      "groups": [
+        {
+          "name": "技术5",
+          "links": [
+            {
+              "name": "开发者头条5",
+              "src": "http://toutiao.io/",
+              "description": ""
+            },
+            {
+              "name": "GitHub Explore5",
+              "open": 0,
+              "src": "https://github.com/explore",
+              "description": "Browse interesting repositories, solving all types of interesting problems.",
+              "new": true
+            },
+            {
+              "name": "SegmentFault5",
+              "src": "https://segmentfault.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "生活5",
+          "links": [
+            {
+              "name": "知乎5",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎5",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎5",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎5",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎5",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎5",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎5",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "工具5",
+          "links": [
+            {
+              "name": "印象笔记5",
+              "src": "https://app.yinxiang.com/Home.action",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日常所需6",
+      "groups": [
+        {
+          "name": "技术6",
+          "links": [
+            {
+              "name": "开发者头条6",
+              "src": "http://toutiao.io/",
+              "description": ""
+            },
+            {
+              "name": "GitHub Explore6",
+              "open": 0,
+              "src": "https://github.com/explore",
+              "description": "Browse interesting repositories, solving all types of interesting problems.",
+              "new": true
+            },
+            {
+              "name": "SegmentFault6",
+              "src": "https://segmentfault.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "生活6",
+          "links": [
+            {
+              "name": "知乎6",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎6",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎6",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎6",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎6",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎6",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎6",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "工具6",
+          "links": [
+            {
+              "name": "印象笔记6",
+              "src": "https://app.yinxiang.com/Home.action",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日常所需7",
+      "groups": [
+        {
+          "name": "技术7",
+          "links": [
+            {
+              "name": "开发者头条7",
+              "src": "http://toutiao.io/",
+              "description": ""
+            },
+            {
+              "name": "GitHub Explore7",
+              "open": 0,
+              "src": "https://github.com/explore",
+              "description": "Browse interesting repositories, solving all types of interesting problems.",
+              "new": true
+            },
+            {
+              "name": "SegmentFault7",
+              "src": "https://segmentfault.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "生活7",
+          "links": [
+            {
+              "name": "知乎7",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎7",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎7",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎7",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎7",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎7",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎7",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "工具7",
+          "links": [
+            {
+              "name": "印象笔记7",
+              "src": "https://app.yinxiang.com/Home.action",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "日常所需8",
+      "groups": [
+        {
+          "name": "技术8",
+          "links": [
+            {
+              "name": "开发者头条8",
+              "src": "http://toutiao.io/",
+              "description": ""
+            },
+            {
+              "name": "GitHub Explore8",
+              "open": 0,
+              "src": "https://github.com/explore",
+              "description": "Browse interesting repositories, solving all types of interesting problems.",
+              "new": true
+            },
+            {
+              "name": "SegmentFault8",
+              "src": "https://segmentfault.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "生活8",
+          "links": [
+            {
+              "name": "知乎8",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎8",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎8",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎8",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎8",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎8",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            },
+            {
+              "name": "知乎8",
+              "src": "https://www.zhihu.com/",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "name": "工具8",
+          "links": [
+            {
+              "name": "印象笔记8",
+              "src": "https://app.yinxiang.com/Home.action",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

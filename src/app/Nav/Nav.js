@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import { Icon, Tooltip } from 'antd';
 import './Nav.css';
 
 class Nav extends React.Component{
@@ -50,10 +51,25 @@ class Nav extends React.Component{
     }
   }
 
+  // 得到高亮数据
+  getHighlightHTML(value, keyword){
+    let arr = value.split(keyword);
+    if(arr.length === 2){
+      return (
+        <span>{arr[0]}<span className="highlight">{keyword}</span>{arr[1]}</span>
+      );
+    }else{
+      return (
+        <span>{value}</span>
+      )
+    }
+  }
+
   // 构造导航HTML
-  getNavHTML() {
+  getNavHTML(){
 
     const navData = this.state.navData || {};
+    const keyword = navData.keyword;
 
     let categories = [];
     if(_.isArray(navData.categories)){  // 第一层：类别
@@ -66,9 +82,14 @@ class Nav extends React.Component{
               _.forEach(group.links, (link)=>{
                 // 构造链接HTML
                 const linkHtml = (
-                  <a title={link.description} key={link.name} href={link.src} target={link.open===1?"_self":"_blank"}>
-                    <div className="main_classify_list">{link.name}</div>
-                  </a>
+                  <Tooltip placement="bottomLeft" title={link.description} arrowPointAtCenter={true}>
+                    <a key={link.name} href={link.src} target={link.open===1?"_self":"_blank"}>
+                      <div className="link_name">
+                        {this.getHighlightHTML(link.name, keyword)}
+                      </div>
+                      {link.new && (<i className="icon-new">New</i>)}
+                    </a>
+                  </Tooltip>
                 );
                 // 添加到链接数组中
                 links = _.concat(links, linkHtml);
@@ -76,9 +97,11 @@ class Nav extends React.Component{
             }
             // 构造分组HTML
             const groupHtml = (
-              <div className="main_classify" key={group.name}>
-                <div className="main_classify_name">{group.name}</div>
-                <div className="main_classify_war">
+              <div className="group" key={group.name}>
+                <div className="group_name">
+                  {this.getHighlightHTML(group.name, keyword)}
+                </div>
+                <div className="group_war">
                   {links}
                 </div>
               </div>
@@ -89,9 +112,14 @@ class Nav extends React.Component{
         }
         // 构造类别HTML
         const categoryHtml = (
-          <div className="content_list" key={category.name}>
-            <div className="content_list_title" style={{textAlign:"center"}}>{category.name}</div>
-            <div className="content_list_main">
+          <div className="category" key={category.name} id={category.name}>
+            <div className="category_title">
+              <Icon type="caret-right" />
+              <span className="category_title_content">
+                {this.getHighlightHTML(category.name, keyword)}
+              </span>
+            </div>
+            <div className="category_main">
               {groups}
             </div>
           </div>
@@ -114,11 +142,7 @@ class Nav extends React.Component{
 
     return(
       <div className="Nav">
-        <div className="content">
-          <div className="content_war war">
-            { this.getNavHTML() }
-          </div>
-        </div>
+        { this.getNavHTML() }
       </div>
     )
 

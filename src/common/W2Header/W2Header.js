@@ -30,7 +30,8 @@ class W2Header extends React.Component {
   }
 
   handleSearch(value){
-    console.log(value)
+    // 交给父组件处理
+    this.props.onSearch(value);
   }
 
   getMenuHTML(){
@@ -38,28 +39,25 @@ class W2Header extends React.Component {
     const { menuData={} } = this.state;
     let menus = [];
     if(_.isArray(menuData.categories)){
-      _.forEach(menuData.categories,(category, index)=>{
+      _.forEachRight(menuData.categories,(category, index)=>{
         const menuHtml = (
-          <Menu.Item key={index}>{category.name}</Menu.Item>
+          <Menu.Item key={index}><a href={"#"+category.name}>{category.name}</a></Menu.Item>
         );
         menus = _.concat(menus, menuHtml);
       });
     }
 
     return (
-      <Menu
-        theme="dark"
-        mode="horizontal"
-        defaultSelectedKeys={['2']}
-        style={{ lineHeight: '64px'}}
-      >
-        {menus}
-        <Search
-          placeholder="输入关键字过滤..."
-          style={{ width: 200 }}
-          onSearch={ this.handleSearch }
-        />
-      </Menu>
+      <div className="menu">
+        <Menu
+          theme="dark"
+          mode="horizontal"
+          defaultSelectedKeys={['2']}
+          style={{ lineHeight: '64px'}}
+        >
+          {menus}
+        </Menu>
+      </div>
     );
   }
 
@@ -67,7 +65,17 @@ class W2Header extends React.Component {
     return (
       <div className="W2Header">
         <Header>
-          <div className="logo" />
+          <div className="logo">
+            <div className="logo-title">
+              生态导航(E-Nav)
+            </div>
+          </div>
+          <div className="search">
+            <Search
+              placeholder="输入关键字过滤..."
+              onSearch={ this.handleSearch }
+            />
+          </div>
           { this.getMenuHTML() }
         </Header>
       </div>

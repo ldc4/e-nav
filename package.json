@@ -2,6 +2,7 @@
   "name": "e-nav",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/page/e-nav",
   "dependencies": {
     "antd": "^2.10.1",
     "axios": "^0.16.1",

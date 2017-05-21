@@ -1,3 +1,7 @@
+.App {
+    min-width: 960px;
+}
+
 .ant-back-top-inner {
     height: 40px;
     width: 40px;

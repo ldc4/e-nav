@@ -14,8 +14,10 @@
             },
             {
               "name": "GitHub Explore",
+              "open": 0,
               "src": "https://github.com/explore",
-              "description": ""
+              "description": "Browse interesting repositories, solving all types of interesting problems.",
+              "new": true
             },
             {
               "name": "SegmentFault",
@@ -56,44 +58,6 @@
               "name": "阮一峰",
               "src": "http://www.ruanyifeng.com/blog/",
               "description": "阮一峰，大牛"
-            },
-            {
-              "name": "GitHub Explore",
-              "open": 0,
-              "src": "https://github.com/explore",
-              "description": "",
-              "new": false
-            },
-            {
-              "name": "SegmentFault",
-              "open": 0,
-              "src": "https://segmentfault.com/",
-              "description": "",
-              "new": false
-            }
-          ]
-        },
-        {
-          "name": "生活",
-          "links": [
-            {
-              "name": "知乎",
-              "open": 0,
-              "src": "https://www.zhihu.com/",
-              "description": "",
-              "new": false
-            }
-          ]
-        },
-        {
-          "name": "工具",
-          "links": [
-            {
-              "name": "印象笔记",
-              "open": 0,
-              "src": "https://app.yinxiang.com/Home.action",
-              "description": "",
-              "new": false
             }
           ]
         }
