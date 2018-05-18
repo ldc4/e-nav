@@ -69,7 +69,7 @@ class Nav extends React.Component{
   getNavHTML(){
 
     const navData = this.state.navData || {};
-    const keyword = navData.keyword;
+    const keyword = navData.keyword || '';
 
     let categories = [];
     if(_.isArray(navData.categories)){  // 第一层：类别
@@ -82,8 +82,8 @@ class Nav extends React.Component{
               _.forEach(group.links, (link)=>{
                 // 构造链接HTML
                 const linkHtml = (
-                  <Tooltip placement="bottomLeft" title={link.description} arrowPointAtCenter={true}>
-                    <a key={link.name} href={link.src} target={link.open===1?"_self":"_blank"}>
+                  <Tooltip key={link.name} placement="bottomLeft" title={link.description} arrowPointAtCenter={true}>
+                    <a href={link.src} target={link.open===1?"_self":"_blank"}>
                       <div className="link_name">
                         {this.getHighlightHTML(link.name, keyword)}
                       </div>

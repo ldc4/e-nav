@@ -13,7 +13,7 @@
               "description": ""
             },
             {
-              "": "掘金",
+              "name": "掘金",
               "src": "https://juejin.im/timeline",
               "description": ""
             },
@@ -64,10 +64,10 @@
       ]
     },
     {
-      "name": "大神博客",
+      "name": "偶尔逛逛",
       "groups": [
         {
-          "name": "前端",
+          "name": "设计",
           "links": [
             {
               "name": "dribbble",

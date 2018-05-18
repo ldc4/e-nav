@@ -88,6 +88,32 @@ function copySrcDataFolder() {
 ```
 **需要注意的是fs变量，是导入的fs-extra**
 
+## nav.json格式说明
+
+```
+    {
+      title: "生态导航",
+      categories: [
+        {
+          name: "类别名",
+          groups: [
+            {
+              name: "类别名",
+              links: [
+                {
+                  name: "链接名",
+                  src: "https://github.com/ldc4", // 具体链接
+                  description: "链接描述",
+                  open: 1, // 打开方式 （0 - 新窗口 | 1 - 当前窗口），默认0
+                  new: true,  // 是否标记为New （ false - 不是 | true - 是 ），默认false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+```
 
 ## IDEA
 
