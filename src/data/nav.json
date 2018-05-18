@@ -13,16 +13,20 @@
               "description": ""
             },
             {
-              "name": "GitHub Explore",
-              "open": 0,
-              "src": "https://github.com/explore",
-              "description": "Browse interesting repositories, solving all types of interesting problems.",
-              "new": true
+              "": "掘金",
+              "src": "https://juejin.im/timeline",
+              "description": ""
             },
             {
               "name": "SegmentFault",
               "src": "https://segmentfault.com/",
               "description": ""
+            },
+            {
+              "name": "GitHub Explore",
+              "open": 0,
+              "src": "https://github.com/explore",
+              "description": "Browse interesting repositories, solving all types of interesting problems."
             }
           ]
         },
@@ -32,16 +36,6 @@
             {
               "name": "知乎",
               "src": "https://www.zhihu.com/",
-              "description": ""
-            }
-          ]
-        },
-        {
-          "name": "工具",
-          "links": [
-            {
-              "name": "印象笔记",
-              "src": "https://app.yinxiang.com/Home.action",
               "description": ""
             }
           ]
@@ -58,6 +52,34 @@
               "name": "阮一峰",
               "src": "http://www.ruanyifeng.com/blog/",
               "description": "阮一峰，大牛"
+            },
+            {
+              "name": "jartto",
+              "src": "http://jartto.wang/",
+              "description": "一个工作五年的典型前端工程师",
+              "new": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大神博客",
+      "groups": [
+        {
+          "name": "前端",
+          "links": [
+            {
+              "name": "dribbble",
+              "src": "https://dribbble.com/",
+              "description": "Show and tell for designers",
+              "new": true
+            },
+            {
+              "name": "behance",
+              "src": "https://www.behance.net/",
+              "description": "Showcase & Discover Creative Work",
+              "new": true
             }
           ]
         }

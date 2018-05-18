@@ -89,4 +89,10 @@ function copySrcDataFolder() {
 **需要注意的是fs变量，是导入的fs-extra**
 
 
+## IDEA
+
+nav.json扩展字段addTime/updateTime，并通过addTime替代new字段
+
+研究避免手动修改nav.json的方案（chrome插件/electron + 后台接口修改数据）
+
 
