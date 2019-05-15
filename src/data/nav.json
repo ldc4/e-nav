@@ -2,51 +2,95 @@
   "title": "生态导航",
   "categories": [
     {
-      "name": "日常所需",
+      "name": "技术学习",
       "groups": [
         {
-          "name": "技术",
+          "name": "周刊类",
           "links": [
             {
-              "name": "开发者头条",
-              "src": "http://toutiao.io/",
+              "name": "奇舞周刊",
+              "src": "https://weekly.75team.com/"
+            },
+            {
+              "name": "FEX周刊",
+              "src": "http://fex.baidu.com/weekly/"
+            },
+            {
+              "name": "javascript weekly",
+              "src": "https://javascriptweekly.com/"
+            },
+            {
+              "name": "node weekly",
+              "src": "https://nodeweekly.com/"
+            },
+            {
+              "name": "印记中文周刊",
+              "src": "https://weekly.docschina.org/javascript/",
+              "description": "javascript weekly 翻译"
+            }
+          ]
+        },
+        {
+          "name": "平台专栏",
+          "links": [
+            {
+              "name": "掘金-前端",
+              "src": "https://juejin.im/timeline/frontend",
               "description": ""
             },
             {
-              "name": "掘金",
-              "src": "https://juejin.im/timeline",
+              "name": "开发者头条-前端",
+              "src": "https://toutiao.io/c/fe",
               "description": ""
             },
             {
-              "name": "SegmentFault",
-              "src": "https://segmentfault.com/",
+              "name": "InfoQ-前端",
+              "src": "https://www.infoq.cn/topic/Front-end",
+              "description": ""
+            },
+            {
+              "name": "Segmentfault-前端",
+              "src": "https://segmentfault.com/channel/frontend",
               "description": ""
             },
             {
               "name": "GitHub Explore",
-              "open": 0,
               "src": "https://github.com/explore",
               "description": "Browse interesting repositories, solving all types of interesting problems."
             }
           ]
         },
         {
-          "name": "生活",
+          "name": "公司团队",
           "links": [
             {
-              "name": "知乎",
-              "src": "https://www.zhihu.com/",
-              "description": ""
+              "name": "阿里UED",
+              "src": "http://www.aliued.com/?cat=14"
+            },
+            {
+              "name": "滴滴FE",
+              "src": "https://github.com/DDFE/DDFE-blog"
+            },
+            {
+              "name": "头条前端",
+              "src": "https://techblog.toutiao.com/tag/%E5%89%8D%E7%AB%AF/"
+            },
+            {
+              "name": "腾讯AlloyTeam",
+              "src": "http://www.alloyteam.com/page/0"
+            },
+            {
+              "name": "腾讯新闻前端",
+              "src": "https://github.com/Tnfe/TNFE-Weekly"
+            },
+            {
+              "name": "百度EFE",
+              "src": "https://efe.baidu.com/"
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "大神博客",
-      "groups": [
+        },
         {
-          "name": "前端",
+          "name": "大神博客",
           "links": [
             {
               "name": "阮一峰",
@@ -56,15 +100,36 @@
             {
               "name": "jartto",
               "src": "http://jartto.wang/",
-              "description": "一个工作五年的典型前端工程师",
-              "new": true
+              "description": "一个工作五年的典型前端工程师"
             }
           ]
         }
       ]
     },
     {
-      "name": "偶尔逛逛",
+      "name": "工具文档",
+      "groups": [
+        {
+          "name": "前端",
+          "links": [
+            {
+              "name": "React",
+              "src": "https://zh-hans.reactjs.org/docs"
+            },
+            {
+              "name": "Lodash",
+              "src": "https://www.html.cn/doc/lodash/"
+            },
+            {
+              "name": "axios",
+              "src": "https://github.com/axios/axios"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "个人收藏",
       "groups": [
         {
           "name": "设计",
@@ -72,13 +137,21 @@
             {
               "name": "dribbble",
               "src": "https://dribbble.com/",
-              "description": "Show and tell for designers",
-              "new": true
+              "description": "Show and tell for designers"
             },
             {
               "name": "behance",
               "src": "https://www.behance.net/",
-              "description": "Showcase & Discover Creative Work",
+              "description": "Showcase & Discover Creative Work"
+            }
+          ]
+        },
+        {
+          "name": "实用",
+          "links": [
+            {
+              "name": "今日掘金",
+              "src": "http://zy2071.com/Fun/todayJueJin.html",
               "new": true
             }
           ]
