@@ -9,7 +9,7 @@ class W2Footer extends React.Component {
     return (
       <div className="W2Footer">
         <Footer style={{ textAlign: 'center' }}>
-          <div>Weedustzhao © 2017</div>
+          <div>Weedustzhao © 2019</div>
         </Footer>
       </div>
     );
